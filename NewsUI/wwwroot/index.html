@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google News</title>
+    <link rel="icon" href="./imgs/Google_News_icon.svg.png" type="image/icon type">
+    <!--include css file, Bootstrap & jQuery   -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" asp-append-version="true">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6Vrj8Qihj4/6Ll6UcQn/6nkU9+I0Iu1J" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">GoogleNews</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            <!-- Loading -->
+            <div class="d-flex justify-content-center">
+                <div id="loadingSpinner" class="spinner-border" role="status"></div>
+            </div>
+
+            <section class="row">
+                <article class="col">
+                    <div id="newsTopics"></div>
+                </article>
+
+                <!-- Displaying one news -->
+                <article class="col" style="max-width: 60%">
+                    <div id="newsItemContainer">
+                        <time id="newsItemDate"></time>
+                        <h2 id="newsItemTitle"></h2>
+                        <p id="newsItemBody"></p>
+                        <div id="newsItemLink"></div>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+    <!-- Footer -->
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            &copy; 2024 - Developed by Tamar Shayo -
+        </div>
+    </footer>
+
+    <!-- connecting to local JS file -->
+    <script src="js/app.js" asp-append-version="true"></script>
+
+</body>
+</html>

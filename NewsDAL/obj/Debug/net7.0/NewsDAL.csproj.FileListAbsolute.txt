@@ -1,0 +1,12 @@
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\bin\Debug\net7.0\NewsDAL.deps.json
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\bin\Debug\net7.0\NewsDAL.dll
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\bin\Debug\net7.0\NewsDAL.pdb
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\NewsDAL.csproj.AssemblyReference.cache
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\NewsDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\NewsDAL.AssemblyInfoInputs.cache
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\NewsDAL.AssemblyInfo.cs
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\NewsDAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\NewsDAL.dll
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\refint\NewsDAL.dll
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\NewsDAL.pdb
+C:\Users\User\Documents\תכנות\Daat1\GoogleNewsProj\NewsDAL\obj\Debug\net7.0\ref\NewsDAL.dll
